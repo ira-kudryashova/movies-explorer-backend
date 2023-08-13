@@ -1,10 +1,12 @@
 const allowedCors = [
-  'https://irakudryashova.nomoreparties.co',
-  'http://irakudryashova.nomoreparties.co',
+  'https://api.final.irakudryashova.nomoreparties.co',
+  'http://api.final.irakudryashova.nomoreparties.co',
   'https://localhost:3000',
   'http://localhost:3000',
+  'localhost:3000',
   'https://localhost:3001',
   'http://localhost:3001',
+  'localhost:3001',
 ];
 
 module.exports = (req, res, next) => {
