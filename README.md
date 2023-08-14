@@ -4,4 +4,4 @@
 
 Backend: https://api.final.irakudryashova.nomoreparties.co
 
-IP 158.160.23.245
+IP 158.160.1.69
