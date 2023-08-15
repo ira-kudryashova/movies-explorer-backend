@@ -1,6 +1,6 @@
 const { config } = require('dotenv');
 
-const URL = 'mongodb://127.0.0.1:27017/mestodb';
+const URL = 'mongodb://127.0.0.1:27017/bitfilmsdb';
 const REGEX_URL = /https?:\/\/(?:[-\w]+\.)?([-\w]+)\.\w+(?:\.\w+)?\/?.*/;
 const REGEX_URL_EMAIL = /^[A-Z0-9._%+-]+@[A-Z0-9-]+.+.[A-Z]{2,4}$/i;
 const { SECRET_KEY = 'dev-secret' } = process.env;
